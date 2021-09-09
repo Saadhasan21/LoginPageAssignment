@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+    /* height: 100%; */
+}
+
+#d1{
+    flex: 60%;
+    height: 100vh;
+    /* background-color:lightgray; */
+    background-image: url(https://source.unsplash.com/1600x900/?nature,water);
+}
+
+#d2{
+    flex: 40%;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    
+}
+
+input{
+    background-color:lightgrey;
+    display: block;
+    align-items: center;
+}
+
+label{
+    display: block;
+    margin-top:  1vh;
+}
+
+.f-container{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.f2-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.check{
+    display: flex;
+   
+    margin-bottom: 1vh;
+}
+
+.button{
+    background-color:darkblue;
+    color:white;
+}
+
+
+
+@media only screen and (max-width:480px) {
+    #d1, #d2{
+        flex:100%;
+    }
+    #d1{
+        height: 40vh;
+    }
+
+    #d2{
+        height: 60vh;
+    }
+    .f2-container{
+        height: 60vh;
+    }
+
+}
