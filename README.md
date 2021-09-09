@@ -1,6 +1,6 @@
 # LoginPageAssignment
 Login webpage linl: https://saadhasan21.github.io/LoginPageAssignment/
-
+new login page using bootstrap link : https://saadhasan21.github.io/newLoginPage/
 Assignment: Create a login page for user. The user page should be responsive. It should consist of two fields, one for username and another for password. It should have a remember‐me checkbox, and a submit button.
 Go to the following link to know more about the design. Use input fields for user and password.
 For user id, consider following validation: 1. Minimum length 5. Maximum length 10 
